@@ -1,0 +1,32 @@
+git remote set-url origin https://github.com/mFadr/agent_exams_simulator.git
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+
+
+
+git remote add origin https://github.com/mFadr/flight_price_predictor.git
+git pull origin main --allow-unrelated-histories   # only if the GitHub repo isn't empty
+git push -u origin main
+
+
+git remote add origin https://github.com/mFadr/lecture_to_learning_agent.git
+
+
+
+git remote add origin https://github.com/mFadr/flight_price_predictor.git
+
+
+
+
+
+
+
+
+
+
+gh auth login
+gh auth refresh -h https://github.com/mFadr/flight_price_predictor -s delete_repo
+gh repo delete mFadr/flight_price_predictor --yes
